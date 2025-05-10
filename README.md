@@ -1,11 +1,14 @@
-# 🌱 goGreen 
+# ☘️goGreen Script🐞
+[![forthebadge](http://forthebadge.com/images/badges/made-with-javascript.svg)](https://www.linkedin.com/in/drphp/)
+[![forthebadge](http://forthebadge.com/images/badges/built-with-love.svg)](https://www.linkedin.com/in/drphp/)
 
-With **goGreen**, you can make your profile look like you've been hard at work... even if you haven't. 
-NodeJs script to make commits to the past (or the future) to go green on GitHub.
+Script Pentesting en Node.js que genera actividad de GitHub con propósitos educativos, permitiendo:
 
-## About
+✅ Simular contribuciones en repositorios (para pruebas de integración continua)
 
-**goGreen** helps you create commits on your GitHub profile for any date in the past. Whether you want to fill up your contribution graph or even make cool patterns and artwork.
+✅ Visualizar patrones de commits en diferentes fechas (pasadas o futuras)
+
+✅ Experimentar con el historial de Git sin afectar proyectos reales
 
 ## Getting Started
 
