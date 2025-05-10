@@ -5,8 +5,8 @@ import random from "random";
 
 const path = "./data.json";
 
-const startDate = moment("2016-09-01");
-const endDate = moment("2017-12-31");
+const startDate = moment("2024-07-01");
+const endDate = moment("2025-04-30");
 const daysDiff = endDate.diff(startDate, "days");
 
 const makeCommits = (n) => {
