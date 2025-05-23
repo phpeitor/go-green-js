@@ -16,7 +16,7 @@ Sigue estos pasos para dar vida a tu gráfico de contribuciones:
 
 1. **Clonar este repositorio**
 ```bash
-git clone https://github.com/phpeitor/goGreen.git
+git clone https://github.com/phpeitor/go-green-js.git
 cd goGreen
 ```
 2. **Configura tu proyecto** (Inicializa un nuevo proyecto de node.js)
