@@ -21,7 +21,7 @@ cd go-green-js
 ```bash
 npm init -y
   ```
-3. **Instala los módulos npm necesarios** (Algunos módulos para que todo funcione correctamente)
+3. **Instala los módulos npm necesarios**
 ```bash
 npm install moment simple-git random
 ```
