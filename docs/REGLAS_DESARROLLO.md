@@ -34,5 +34,5 @@
 ## Criterio de aceptacion de cambios
 
 1. El script debe ejecutarse sin errores en entorno limpio.
-2. data.json debe reflejar el rango y commits generados correctamente.
+2. data/data.json debe reflejar el rango y commits generados correctamente.
 3. La salida en terminal debe ser clara para seguimiento del progreso.

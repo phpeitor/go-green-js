@@ -1,6 +1,8 @@
-# Go Green JScript🐞
+# Go Green JS🐞
 [![forthebadge](http://forthebadge.com/images/badges/made-with-javascript.svg)](https://www.linkedin.com/in/drphp/)
 [![forthebadge](http://forthebadge.com/images/badges/built-with-love.svg)](https://www.linkedin.com/in/drphp/)
+
+[![Video Demo](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube)](https://www.youtube.com/watch?v=K9n4jRPH-94)
 
 Herramienta en Node.js para generar actividad de commits de forma automatizada con fines de laboratorio, pruebas y aprendizaje de historiales git.
 
@@ -16,6 +18,17 @@ Herramienta en Node.js para generar actividad de commits de forma automatizada c
 - Git instalado y disponible en terminal.
 - Un repositorio git inicializado con remoto configurado si deseas usar push.
 
+## Estructura
+
+```text
+go-green-js/
+  src/                  codigo principal
+  data/                 salida generada por el script
+  docs/                 reglas y documentacion complementaria
+  README.md             guia principal
+  LICENSE               reglas de uso
+```
+
 ## Ejecucion rapida
 
 1. Instalar dependencias (solo si no existe node_modules o cambiaste dependencias):
@@ -27,20 +40,20 @@ npm install
 2. Ejecutar el script:
 
 ```bash
-node index.js
+npm start
 ```
 
 ## Que genera el script
 
 - Commits con fechas aleatorias dentro del rango definido en el codigo.
-- Registro completo en data.json con:
+- Registro completo en data/data.json con:
   - metadatos de ejecucion
   - rango de fechas completo
   - lista de commits generados
 
 ## Reglas de desarrollo
 
-Consulta el documento de reglas en [REGLAS_DESARROLLO.md](REGLAS_DESARROLLO.md).
+Consulta el documento de reglas en [docs/REGLAS_DESARROLLO.md](docs/REGLAS_DESARROLLO.md).
 
 ## Uso responsable
 
