@@ -1,39 +1,45 @@
-# ☘️Go Green Script🐞
-[![forthebadge](http://forthebadge.com/images/badges/made-with-javascript.svg)](https://www.linkedin.com/in/drphp/)
-[![forthebadge](http://forthebadge.com/images/badges/built-with-love.svg)](https://www.linkedin.com/in/drphp/)
+# GO GREEN JS
 
-Script Pentesting en node.js que genera actividad de github con propósitos educativos, permitiendo:
+Herramienta en Node.js para generar actividad de commits de forma automatizada con fines de laboratorio, pruebas y aprendizaje de historiales git.
 
-- ✅ Simular contribuciones en repositorios (para pruebas de integración continua)
-- ✅ Visualizar patrones de commits en diferentes fechas (pasadas o futuras)
-- ✅ Experimentar con el historial de git sin afectar proyectos reales
+## Objetivo
 
-## 🚀 Quick Start
+- Simular patrones de contribuciones en un repositorio de pruebas.
+- Practicar automatizacion de flujo git con fechas personalizadas.
+- Analizar visualmente periodos de actividad por rango de fechas.
 
-Sigue estos pasos para dar vida a tu gráfico de contribuciones:
+## Requisitos
 
-1. **Clonar este repositorio**
+- Node.js 18 o superior.
+- Git instalado y disponible en terminal.
+- Un repositorio git inicializado con remoto configurado si deseas usar push.
+
+## Ejecucion rapida
+
+1. Instalar dependencias (solo si no existe node_modules o cambiaste dependencias):
+
 ```bash
-git clone https://github.com/phpeitor/go-green-js.git
-cd go-green-js
+npm install
 ```
-2. **Configura tu proyecto** (Inicializa un nuevo proyecto de node.js)
-```bash
-npm init -y
-  ```
-3. **Instala los módulos npm necesarios**
-```bash
-npm install moment simple-git random
-```
-4. **Ejecutar comando**
+
+2. Ejecutar el script:
+
 ```bash
 node index.js
 ```
-[![Video](https://img.youtube.com/vi/0FmUHmAS3C8/0.jpg)](https://www.youtube.com/watch?v=0FmUHmAS3C8)  
-🎥[Ver demo](https://www.youtube.com/watch?v=0FmUHmAS3C8)
 
-<a href="#" target="_self" style="pointer-events: none;">
-  <img src="https://wiesseconsultores.com/demo.gif" alt="Demo Git">
-</a>
+## Que genera el script
 
-*If you're interested in knowing the powerlevel configuration to get this prompt, have a look at [this gist](https://github.com/phpeitor/).*
+- Commits con fechas aleatorias dentro del rango definido en el codigo.
+- Registro completo en data.json con:
+  - metadatos de ejecucion
+  - rango de fechas completo
+  - lista de commits generados
+
+## Reglas de desarrollo
+
+Consulta el documento de reglas en [REGLAS_DESARROLLO.md](REGLAS_DESARROLLO.md).
+
+## Uso responsable
+
+Consulta [LICENSE](LICENSE) para condiciones de uso, restricciones y responsabilidad.

@@ -1,28 +1,33 @@
-██████╗ ██╗  ██╗██████╗ ███████╗██╗████████╗ ██████╗ ██████╗ 
-██╔══██╗██║  ██║██╔══██╗██╔════╝██║╚══██╔══╝██╔═══██╗██╔══██╗
-██████╔╝███████║██████╔╝█████╗  ██║   ██║   ██║   ██║██████╔╝
-██╔═══╝ ██╔══██║██╔═══╝ ██╔══╝  ██║   ██║   ██║   ██║██╔══██╗
-██║     ██║  ██║██║     ███████╗██║   ██║   ╚██████╔╝██║  ██║
-╚═╝     ╚═╝  ╚═╝╚═╝     ╚══════╝╚═╝   ╚═╝    ╚═════╝ ╚═╝  ╚═╝
+  ____  ___   ____ ____  _____ _____ _   _       _ ____
+ / ___|/ _ \ / ___|  _ \| ____| ____| \ | |     | / ___|
+| |  _| | | | |  _| |_) |  _| |  _| |  \| |  _  | \___ \
+| |_| | |_| | |_| |  _ <| |___| |___| |\  | | |_| |___) |
+ \____|\___/ \____|_| \_\_____|_____|_| \_|  \___/|____/
+				  REGLAS DE USO RESPONSABLE
 
-MIT License
+Licencia de Uso Responsable (No Comercial)
 
-Copyright (c) 2025 PHPeitor
+Copyright (c) 2026 PHPeitor
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+Se concede permiso para usar, copiar y modificar este software con fines
+educativos, de investigacion y de laboratorio en entornos propios o autorizados.
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+Condiciones obligatorias de uso:
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+1. No usar este software para fraude, suplantacion o falsificacion de actividad.
+2. No usar este software para manipular procesos de seleccion, auditoria,
+	evaluaciones academicas o cualquier sistema de reputacion.
+3. No usar este software en repositorios, cuentas o infraestructura sin
+	autorizacion explicita del titular.
+4. Toda redistribucion debe incluir este archivo LICENSE sin modificaciones.
+5. Este software no puede comercializarse ni sublicenciarse para fines de lucro
+	sin autorizacion expresa por escrito del autor.
+
+Descargo de responsabilidad:
+
+EL SOFTWARE SE ENTREGA "TAL CUAL", SIN GARANTIAS DE NINGUN TIPO, EXPRESAS O
+IMPLICITAS, INCLUYENDO GARANTIAS DE COMERCIABILIDAD, IDONEIDAD PARA UN
+PROPOSITO PARTICULAR Y NO INFRACCION.
+
+EL AUTOR NO SERA RESPONSABLE POR DANOS, RECLAMOS O RESPONSABILIDADES DERIVADAS
+DEL USO O MAL USO DEL SOFTWARE.
