@@ -2,7 +2,9 @@
 [![forthebadge](http://forthebadge.com/images/badges/made-with-javascript.svg)](https://www.linkedin.com/in/drphp/)
 [![forthebadge](http://forthebadge.com/images/badges/built-with-love.svg)](https://www.linkedin.com/in/drphp/)
 
-[![Video Demo](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube)](https://www.youtube.com/watch?v=K9n4jRPH-94)
+[![Video](https://img.youtube.com/vi/0FmUHmAS3C/0.jpg)](https://www.youtube.com/watch?v=0FmUHmAS3C)  
+
+[![Video Demo](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube)](https://www.youtube.com/watch?v=0FmUHmAS3C8)
 
 Herramienta en Node.js para generar actividad de commits de forma automatizada con fines de laboratorio, pruebas y aprendizaje de historiales git.
 
