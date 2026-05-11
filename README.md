@@ -1,4 +1,6 @@
-# GO GREEN JS
+# Go Green JScript🐞
+[![forthebadge](http://forthebadge.com/images/badges/made-with-javascript.svg)](https://www.linkedin.com/in/drphp/)
+[![forthebadge](http://forthebadge.com/images/badges/built-with-love.svg)](https://www.linkedin.com/in/drphp/)
 
 Herramienta en Node.js para generar actividad de commits de forma automatizada con fines de laboratorio, pruebas y aprendizaje de historiales git.
 
