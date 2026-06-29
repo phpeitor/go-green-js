@@ -4,10 +4,10 @@ import simpleGit from "simple-git";
 import random from "random";
 
 const path = "./data/date.json";
-const TOTAL_COMMITS = 100;
+const TOTAL_COMMITS = 250;
 
-const startDate = moment("2025-06-01");
-const endDate = moment("2026-04-30");
+const startDate = moment("2026-01-05");
+const endDate = moment();
 const daysDiff = endDate.diff(startDate, "days");
 const datesTable = [];
 const fullRangeDates = [];
