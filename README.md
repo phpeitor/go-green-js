@@ -24,13 +24,13 @@ Go Green JS es una herramienta de laboratorio para generar commits con fechas si
 - Un repositorio Git inicializado.
 - Un remoto configurado si queres permitir el `push` final.
 
-## Instalacion
+## Instalación
 
 ```bash
 npm install
 ```
 
-## Ejecucion
+## Ejecución
 
 ```bash
 npm start
@@ -38,7 +38,7 @@ npm start
 
 Durante la ejecucion se muestra una barra de progreso con el ultimo commit generado y una animacion con `🐞`.
 
-## Configuracion actual
+## Configuración
 
 La configuracion principal esta en `src/index.js`:
 
@@ -54,7 +54,7 @@ const endDate = moment();
 
 Si `startDate` queda despues de la fecha actual, el script se detiene con un error para evitar rangos invalidos.
 
-## Que genera
+## Generación
 
 - Commits con fechas aleatorias entre `startDate` y la fecha actual.
 - Un archivo `data/date.json` con metadatos de la ejecucion.
