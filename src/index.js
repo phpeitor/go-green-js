@@ -4,9 +4,10 @@ import simpleGit from "simple-git";
 import random from "random";
 
 const path = "./data/date.json";
-const TOTAL_COMMITS = 250;
+const TOTAL_COMMITS = 50;
+const bugFrames = ["🐞      ", " 🐞     ", "  🐞    ", "   🐞   ", "    🐞  ", "     🐞 ", "      🐞"];
 
-const startDate = moment("2026-01-05");
+const startDate = moment("2026-05-01");
 const endDate = moment();
 const daysDiff = endDate.diff(startDate, "days");
 const datesTable = [];
@@ -33,13 +34,20 @@ const renderProgress = (completed, lastDate) => {
   const percent = Math.floor((completed / TOTAL_COMMITS) * 100);
   const filled = Math.floor((completed / TOTAL_COMMITS) * width);
   const bar = `${"#".repeat(filled)}${"-".repeat(width - filled)}`;
+  const bug = bugFrames[completed % bugFrames.length];
 
   process.stdout.write(
-    `\r${styles.cyan}[${bar}] ${percent}%${styles.reset} ${styles.yellow}${completed}/${TOTAL_COMMITS}${styles.reset} ultimo=${lastDate}`
+    `\r${styles.cyan}[${bar}] ${percent}%${styles.reset} ${bug} ${styles.yellow}${completed}/${TOTAL_COMMITS}${styles.reset} ultimo=${lastDate}`
   );
 
   if (completed === TOTAL_COMMITS) {
     process.stdout.write("\n");
+  }
+};
+
+const validateRange = () => {
+  if (daysDiff < 0) {
+    throw new Error("startDate no puede ser mayor que la fecha actual.");
   }
 };
 
@@ -91,6 +99,7 @@ const makeCommits = (n) => {
   });
 };
 
+validateRange();
 buildFullRange();
 printHeader();
 makeCommits(TOTAL_COMMITS);
